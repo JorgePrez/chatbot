@@ -101,7 +101,7 @@ def todos():
 
     # Amazon Bedrock - KnowledgeBase Retriever 
     retriever = AmazonKnowledgeBasesRetriever(
-        knowledge_base_id="6XLSD7K5QH", #  Knowledge base ID
+        knowledge_base_id="KZ0SO65RI1", #  Knowledge base ID
         retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 10}},
     )
 
@@ -250,7 +250,7 @@ def mises_knowledge():
 
     # Amazon Bedrock - KnowledgeBase Retriever 
     retriever = AmazonKnowledgeBasesRetriever(
-        knowledge_base_id="CZZ1DBZAYB", #  Knowledge base ID
+        knowledge_base_id="4L0WE8NOOH", #  Knowledge base ID
         retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 10}},
     )
 
@@ -400,7 +400,7 @@ def hayek_knowledge():
 
     # Amazon Bedrock - KnowledgeBase Retriever 
     retriever = AmazonKnowledgeBasesRetriever(
-        knowledge_base_id="ZTVA42XMAF", #  Knowledge base ID
+        knowledge_base_id="HME7HA8YXX", #  Knowledge base ID
         retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 10}},
     )
 
@@ -548,7 +548,7 @@ def hazlitt_knowledge():
 
     # Amazon Bedrock - KnowledgeBase Retriever 
     retriever = AmazonKnowledgeBasesRetriever(
-        knowledge_base_id="RQUJMYLO3A", #  Knowledge base ID
+        knowledge_base_id="7MFCUWJSJJ", #  Knowledge base ID
         retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 10}},
     )
 
